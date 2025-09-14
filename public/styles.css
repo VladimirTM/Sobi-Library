@@ -1,0 +1,119 @@
+/* Color Palette Variables - Easy to change */
+:root {
+  --orange: #ef7722;
+  --light-orange: #faa533;
+  --light-gray: #ebebeb;
+  --blue: #0ba6df;
+}
+
+/* Custom Background Colors */
+.bg-orange {
+  background-color: var(--orange) !important;
+}
+
+.bg-light-orange {
+  background-color: var(--light-orange) !important;
+}
+
+.bg-custom-light {
+  background-color: var(--light-gray) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue) !important;
+}
+
+/* Text Colors */
+.text-orange {
+  color: var(--orange) !important;
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+
+/* Custom Button Colors */
+.btn-orange {
+  background-color: var(--orange);
+  border-color: var(--orange);
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: var(--light-orange);
+  border-color: var(--light-orange);
+  color: white;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #0891c7;
+  border-color: #0891c7;
+  color: white;
+}
+
+/* Simple Card Hover Effect */
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Book Cover Image Styling */
+.book-cover {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Rating Badge */
+.rating-badge {
+  background-color: var(--orange);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Simple Form Styling */
+.form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Navbar Brand Styling */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: var(--blue);
+  color: white;
+  padding: 3rem 0;
+}
+
+/* Simple animations */
+.fade-in {
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
