@@ -13,7 +13,6 @@ const db = new pg.Client({
   database: process.env.DB_NAME,
   password: process.env.DB_PASSWORD,
   port: 5432,
-  ssl: { rejectUnauthorized: false }, // required on Render
 });
 
 db.connect();
